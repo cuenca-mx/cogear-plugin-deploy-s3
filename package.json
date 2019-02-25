@@ -1,0 +1,24 @@
+{
+  "name": "cogear-plugin-deploy-s3",
+  "description": "Plugin to deploy projects cogear a s3.",
+  "version": "1.0.0",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuenca-mx/cogear-plugin-deploy-s3.git"
+  },
+  "homepage": "https://github.com/cuenca-mx/cogear-plugin-deploy-s3#readme",
+  "license": "MIT",
+  "main": "./plugin.js",
+  "dependencies": {
+    "s3-easy-deploy": "^1.1.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/cuenca-mx/cogear-plugin-deploy-s3/issues"
+  }
+}
